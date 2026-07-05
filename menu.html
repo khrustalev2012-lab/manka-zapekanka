@@ -68,7 +68,7 @@
     font-weight:700;
     letter-spacing:.22em;
     text-transform:uppercase;
-    color:var(--accent);
+    color:#82694f;
     display:flex;
     align-items:center;
     gap:10px;
@@ -260,7 +260,7 @@
   .about-text p{ font-size:16.5px; color:#5a4f45; margin-top:20px; max-width:480px; }
   .about-stats{ display:flex; gap:40px; margin-top:40px; }
   .about-stats div b{ display:block; font-family:var(--font-display); font-size:32px; color:var(--brown); font-weight:600; }
-  .about-stats div span{ font-size:12.5px; color:#8a7c6e; letter-spacing:.03em; }
+  .about-stats div span{ font-size:12.5px; color:#6b6055; letter-spacing:.03em; }
   @media(max-width:900px){
     .about .container{ grid-template-columns:1fr; gap:44px; }
     .about-media{ aspect-ratio:16/11; }
@@ -282,7 +282,7 @@
   .menu-card-top{ display:flex; justify-content:space-between; align-items:baseline; gap:12px; }
   .menu-card-top h3{ font-family:var(--font-display); font-size:23px; font-weight:600; }
   .menu-card-top .price{ font-size:14.5px; font-weight:700; color:var(--brown); white-space:nowrap; }
-  .menu-card-body p{ font-size:14px; color:#7d7166; margin-top:8px; }
+  .menu-card-body p{ font-size:14px; color:#6b6055; margin-top:8px; }
   @media(max-width:900px){ .menu-grid{ grid-template-columns:repeat(2,1fr); } }
   @media(max-width:560px){ .menu-grid{ grid-template-columns:1fr; } }
   .menu-more{ display:flex; justify-content:center; margin-top:48px; }
@@ -315,7 +315,7 @@
   .why-card:hover{ transform:translateY(-6px); box-shadow:0 22px 44px -20px rgba(47,42,38,.22); }
   .why-icon{ width:44px; height:44px; margin-bottom:22px; color:var(--brown); }
   .why-card h3{ font-family:var(--font-display); font-size:21px; font-weight:600; margin-bottom:10px; }
-  .why-card p{ font-size:13.8px; color:#7d7166; }
+  .why-card p{ font-size:13.8px; color:#6b6055; }
   @media(max-width:900px){ .why-grid{ grid-template-columns:repeat(2,1fr); } }
   @media(max-width:560px){ .why-grid{ grid-template-columns:1fr; } }
 
@@ -359,14 +359,14 @@
     background:var(--card); border-radius:var(--radius-md); padding:34px 32px;
     border:1px solid rgba(94,70,53,.08);
   }
-  .stars{ color:var(--accent); font-size:14px; letter-spacing:2px; margin-bottom:16px; }
+  .stars{ color:#82694f; font-size:14px; letter-spacing:2px; margin-bottom:16px; }
   .testi-card p{ font-family:var(--font-display); font-size:19px; font-style:italic; line-height:1.5; color:var(--dark); }
   .testi-person{ display:flex; align-items:center; gap:12px; margin-top:24px; }
   .testi-avatar{
     width:42px; height:42px; border-radius:50%; background:var(--brown); color:var(--cream);
     display:flex; align-items:center; justify-content:center; font-weight:700; font-size:14px; font-family:var(--font-body);
   }
-  .testi-person div span{ display:block; font-size:12px; color:#8a7c6e; }
+  .testi-person div span{ display:block; font-size:12px; color:#6b6055; }
   .testi-person div b{ font-size:14px; font-weight:700; }
   .testi-nav{ display:flex; gap:12px; margin-top:28px; }
   .testi-nav button{
@@ -387,7 +387,7 @@
   }
   .contact-card .ic{ width:34px; height:34px; color:var(--brown); flex:none; }
   .contact-card b{ display:block; font-size:14.5px; }
-  .contact-card span{ font-size:13px; color:#8a7c6e; }
+  .contact-card span{ font-size:13px; color:#6b6055; }
   .contact-actions{ display:flex; gap:14px; margin-top:30px; flex-wrap:wrap; }
   .map-card{
     aspect-ratio:1/1; border-radius:var(--radius-lg); background:var(--brown);
@@ -436,7 +436,7 @@
     <div class="nav-cta">
       <a href="index.html#booking" class="btn btn-primary">Забронировать</a>
     </div>
-    <button class="burger" id="burger" aria-label="Меню"><span></span><span></span><span></span></button>
+    <button class="burger" id="burger" aria-label="Меню" aria-controls="navLinks"><span></span><span></span><span></span></button>
   </div>
 </nav>
 <style>
@@ -450,7 +450,7 @@
     font-family:var(--font-display); font-weight:500; font-size:clamp(36px,5vw,56px);
     color:var(--dark); letter-spacing:-.01em;
   }
-  .menu-hero p{ margin-top:16px; font-size:15.5px; color:#7d7166; }
+  .menu-hero p{ margin-top:16px; font-size:15.5px; color:#6b6055; }
   .menu-hero .back-link{ display:inline-flex; align-items:center; gap:8px; margin-top:26px; font-size:13px; font-weight:600; letter-spacing:.02em; color:var(--brown); }
   .menu-hero .back-link:hover{ text-decoration:underline; }
 
@@ -467,12 +467,12 @@
   .fm-category{ margin-bottom:72px; scroll-margin-top:110px; }
   .fm-category-head{ display:flex; align-items:baseline; gap:16px; margin-bottom:28px; border-bottom:1px solid rgba(94,70,53,.18); padding-bottom:16px; }
   .fm-category-head h2{ font-family:var(--font-display); font-weight:600; font-size:30px; color:var(--dark); white-space:nowrap; }
-  .fm-category-note{ font-size:13px; color:var(--accent); font-style:italic; font-family:var(--font-display); }
+  .fm-category-note{ font-size:13px; color:#82694f; font-style:italic; font-family:var(--font-display); }
   .fm-list{ display:grid; grid-template-columns:1fr; gap:2px 48px; }
   @media(min-width:700px){ .fm-list{ grid-template-columns:1fr 1fr; } }
   .fm-row{ display:flex; align-items:baseline; gap:10px; padding:12px 0; border-bottom:1px dotted rgba(94,70,53,.28); }
   .fm-row .fm-name{ font-size:15.5px; color:var(--dark); }
-  .fm-row .fm-vol{ font-size:11.5px; color:#a99a8b; white-space:nowrap; }
+  .fm-row .fm-vol{ font-size:11.5px; color:#6b6055; white-space:nowrap; }
   .fm-row .fm-dots{ flex:1; border-bottom:1px dotted rgba(94,70,53,.28); transform:translateY(-5px); min-width:16px; }
   .fm-row .fm-price{ font-size:14.5px; font-weight:700; color:var(--brown); white-space:nowrap; }
 </style>
@@ -646,13 +646,27 @@
   // mobile menu
   const burger = document.getElementById('burger');
   const navLinks = document.getElementById('navLinks');
+  burger.setAttribute('aria-expanded', 'false');
+  function closeMobileMenu(returnFocus) {
+    navLinks.classList.remove('open');
+    nav.classList.remove('menu-open');
+    burger.setAttribute('aria-expanded', 'false');
+    if (returnFocus) burger.focus();
+  }
   burger.addEventListener('click', () => {
+    const opening = !navLinks.classList.contains('open');
     navLinks.classList.toggle('open');
     nav.classList.toggle('menu-open');
+    burger.setAttribute('aria-expanded', String(opening));
+    if (opening) {
+      const firstLink = navLinks.querySelector('a');
+      if (firstLink) firstLink.focus();
+    }
   });
-  navLinks.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
-    navLinks.classList.remove('open'); nav.classList.remove('menu-open');
-  }));
+  navLinks.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') closeMobileMenu(true);
+  });
+  navLinks.querySelectorAll('a').forEach(a => a.addEventListener('click', () => closeMobileMenu(false)));
 
   // reveal on scroll
   const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
