@@ -1,0 +1,13 @@
+{
+  "name": "Манка-Запеканка",
+  "short_name": "Манка-Запеканка",
+  "description": "Уютная кофейня домашних завтраков — демо-сайт для портфолио",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F7F2EC",
+  "theme_color": "#5E4635",
+  "icons": [
+    { "src": "assets/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "assets/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}
